@@ -143,12 +143,7 @@ function TimeCard({
   icon
 }: TimeCardType) {
   return (
-    <div
-      className={clsx(
-        " bg-orange-400  pt-10 rounded-xl overflow-hidden relative",
-        color
-      )}
-    >
+    <div className={clsx("  pt-10 rounded-xl overflow-hidden relative", color)}>
       <Image
         className="  absolute top-[-10px] right-3 z-10  h-[70px] w-auto "
         src={icon}
